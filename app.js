@@ -14,6 +14,9 @@ mongoose
     console.error("MongoDB connection error:", err);
   });
 
+app.use("/images", express.static("images"));
+app.use(express.json());
+
 app.listen(PORT, () => {
   console.log(`Petfinder server is running on PORT ${PORT}`);
 });
