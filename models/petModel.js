@@ -63,10 +63,15 @@ const petSchema = new mongoose.Schema({
   },
   imageUrl: {
     type: String,
-    required: true,
     validate: {
-      validator: (value) => validator.isURL(value),
-      message: "You must enter a valid URL",
+      validator: function (value) {
+        // Validate only if the value is provided
+        if (value === "http://localhost:3000/images/defaultImage.jpg") {
+          return true;
+        }
+        return validator.isURL(value);
+      },
+      message: "You must enter a valid URL.",
     },
     default: "http://localhost:3000/images/defaultImage.jpg",
   },

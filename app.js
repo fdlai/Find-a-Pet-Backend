@@ -1,5 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const petModel = require("./models/petModel");
+const petRouter = require("./routes/petRoute");
 
 const { PORT = 3001 } = process.env;
 
@@ -16,6 +18,7 @@ mongoose
 
 app.use("/images", express.static("images"));
 app.use(express.json());
+app.use("/pet", petRouter);
 
 app.listen(PORT, () => {
   console.log(`Petfinder server is running on PORT ${PORT}`);
