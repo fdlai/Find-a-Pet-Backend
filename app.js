@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const petModel = require("./models/petModel");
-const petRouter = require("./routes/petRoute");
+const petRouter = require("./routes/petRoutes");
 
 const { PORT = 3001 } = process.env;
 

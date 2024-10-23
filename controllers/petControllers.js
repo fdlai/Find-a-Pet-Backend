@@ -1,9 +1,6 @@
-const { Router } = require("express");
 const petModel = require("../models/petModel");
 
-const petRouter = Router();
-
-petRouter.post("/", (req, res) => {
+function createPet(req, res) {
   const {
     name,
     breed,
@@ -38,9 +35,9 @@ petRouter.post("/", (req, res) => {
     .catch((err) => {
       return res.status(500).json(`${err} Could not create pet.`);
     });
-});
+}
 
-petRouter.patch("/:id", (req, res) => {
+function editPetInfo(req, res) {
   const { id } = req.params;
   const updatedPetInfo = {};
   Object.keys(req.body).forEach((key) => {
@@ -54,6 +51,6 @@ petRouter.patch("/:id", (req, res) => {
     .findByIdAndUpdate(id, { $set: updatedPetInfo }, { new: true })
     .then((updatedPet) => res.status(200).json(updatedPet))
     .catch((err) => res.status(500).json(`${err} Could not edit pet info.`));
-});
+}
 
-module.exports = petRouter;
+module.exports = { createPet, editPetInfo };
