@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Mr Meow",
+    "breed": "Tabby",
+    "sex": "male",
+    "city": "Spring Hill",
+    "state": "Florida",
+    "zipCode": 34606,
+    "size": "medium",
+    "characteristics": "No information",
+    "health": "No information",
+    "description": "No description available",
+    "imageUrl": "http://localhost:3000/images/defaultImage.jpg",
+    "createdAt": "2024-10-23T08:06:42.953+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-82.6105, 28.4912]
+    }
+  },
+  {
+    "name": "Fluffy",
+    "breed": "Poodle",
+    "sex": "female",
+    "city": "Orlando",
+    "state": "Florida",
+    "zipCode": 32819,
+    "size": "small",
+    "characteristics": "Friendly and playful",
+    "health": "Vaccinated",
+    "description": "Looking for a loving home",
+    "imageUrl": "http://localhost:3000/images/fluffy.jpg",
+    "createdAt": "2024-10-23T08:06:42.953+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-81.3792, 28.5383]
+    }
+  },
+  {
+    "name": "Buddy",
+    "breed": "Golden Retriever",
+    "sex": "male",
+    "city": "Tampa",
+    "state": "Florida",
+    "zipCode": 33607,
+    "size": "large",
+    "characteristics": "Energetic and loyal",
+    "health": "Spayed/Neutered",
+    "description": "Loves to play fetch",
+    "imageUrl": "http://localhost:3000/images/buddy.jpg",
+    "createdAt": "2024-10-23T09:15:31.345+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-82.4584, 27.9506]
+    }
+  },
+  {
+    "name": "Whiskers",
+    "breed": "Siamese",
+    "sex": "female",
+    "city": "Miami",
+    "state": "Florida",
+    "zipCode": 33101,
+    "size": "small",
+    "characteristics": "Curious and independent",
+    "health": "Vaccinated",
+    "description": "Likes to explore",
+    "imageUrl": "http://localhost:3000/images/whiskers.jpg",
+    "createdAt": "2024-10-23T09:20:12.123+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-80.1918, 25.7617]
+    }
+  },
+  {
+    "name": "Shadow",
+    "breed": "Black Lab",
+    "sex": "male",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "zipCode": 32202,
+    "size": "large",
+    "characteristics": "Protective and calm",
+    "health": "No information",
+    "description": "Great family dog",
+    "imageUrl": "http://localhost:3000/images/shadow.jpg",
+    "createdAt": "2024-10-23T09:25:45.567+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-81.6557, 30.3322]
+    }
+  },
+  {
+    "name": "Luna",
+    "breed": "Husky",
+    "sex": "female",
+    "city": "Gainesville",
+    "state": "Florida",
+    "zipCode": 32601,
+    "size": "medium",
+    "characteristics": "Loves cold weather",
+    "health": "No information",
+    "description": "Enjoys long walks",
+    "imageUrl": "http://localhost:3000/images/luna.jpg",
+    "createdAt": "2024-10-23T09:30:15.890+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-82.3249, 29.6516]
+    }
+  },
+  {
+    "name": "Charlie",
+    "breed": "Beagle",
+    "sex": "male",
+    "city": "Tallahassee",
+    "state": "Florida",
+    "zipCode": 32301,
+    "size": "small",
+    "characteristics": "Very vocal",
+    "health": "Spayed/Neutered",
+    "description": "Loves to chase squirrels",
+    "imageUrl": "http://localhost:3000/images/charlie.jpg",
+    "createdAt": "2024-10-23T09:35:50.783+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-84.2807, 30.4383]
+    }
+  },
+  {
+    "name": "Bella",
+    "breed": "Bulldog",
+    "sex": "female",
+    "city": "Pensacola",
+    "state": "Florida",
+    "zipCode": 32501,
+    "size": "medium",
+    "characteristics": "Laid back",
+    "health": "Vaccinated",
+    "description": "Enjoys lounging around",
+    "imageUrl": "http://localhost:3000/images/bella.jpg",
+    "createdAt": "2024-10-23T09:40:22.456+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-87.2169, 30.4213]
+    }
+  },
+  {
+    "name": "Max",
+    "breed": "German Shepherd",
+    "sex": "male",
+    "city": "Ocala",
+    "state": "Florida",
+    "zipCode": 34470,
+    "size": "large",
+    "characteristics": "Loyal and smart",
+    "health": "Spayed/Neutered",
+    "description": "Excellent guard dog",
+    "imageUrl": "http://localhost:3000/images/max.jpg",
+    "createdAt": "2024-10-23T09:45:15.982+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-82.1401, 29.1872]
+    }
+  },
+  {
+    "name": "Coco",
+    "breed": "Shih Tzu",
+    "sex": "female",
+    "city": "St. Petersburg",
+    "state": "Florida",
+    "zipCode": 33701,
+    "size": "small",
+    "characteristics": "Affectionate",
+    "health": "No information",
+    "description": "Loves attention",
+    "imageUrl": "http://localhost:3000/images/coco.jpg",
+    "createdAt": "2024-10-23T09:50:39.876+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-82.6403, 27.7652]
+    }
+  },
+  {
+    "name": "Daisy",
+    "breed": "Chihuahua",
+    "sex": "female",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "zipCode": 33301,
+    "size": "small",
+    "characteristics": "Playful and curious",
+    "health": "Vaccinated",
+    "description": "Loves to cuddle",
+    "imageUrl": "http://localhost:3000/images/daisy.jpg",
+    "createdAt": "2024-10-23T10:00:00.000+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-80.1347, 26.1224]
+    }
+  },
+  {
+    "name": "Rocky",
+    "breed": "Boxer",
+    "sex": "male",
+    "city": "Boca Raton",
+    "state": "Florida",
+    "zipCode": 33432,
+    "size": "medium",
+    "characteristics": "Friendly and protective",
+    "health": "Spayed/Neutered",
+    "description": "Great with kids",
+    "imageUrl": "http://localhost:3000/images/rocky.jpg",
+    "createdAt": "2024-10-23T10:05:00.000+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-80.0831, 26.3683]
+    }
+  },
+  {
+    "name": "Nina",
+    "breed": "Sphynx",
+    "sex": "female",
+    "city": "Naples",
+    "state": "Florida",
+    "zipCode": 34101,
+    "size": "small",
+    "characteristics": "Affectionate and playful",
+    "health": "Vaccinated",
+    "description": "Loves to be pampered",
+    "imageUrl": "http://localhost:3000/images/nina.jpg",
+    "createdAt": "2024-10-23T10:10:00.000+00:00",
+    "location": {
+      "type": "Point",
+      "coordinates": [-81.7959, 26.142]
+    }
+  }
+]

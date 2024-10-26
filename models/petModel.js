@@ -75,11 +75,26 @@ const petSchema = new mongoose.Schema({
     },
     default: "http://localhost:3000/images/defaultImage.jpg",
   },
+  location: {
+    type: {
+      type: String,
+      enum: ["Point"],
+      required: true,
+      default: "Point",
+    },
+    coordinates: {
+      type: [Number],
+      required: true,
+    },
+  },
   createdAt: {
     type: Date,
     default: Date.now,
   },
 });
+
+// Create a geospatial index on the location field
+petSchema.index({ location: "2dsphere" });
 
 const petModel = mongoose.model("pet", petSchema);
 
