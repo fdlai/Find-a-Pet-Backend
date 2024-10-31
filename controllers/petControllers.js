@@ -13,6 +13,7 @@ function createPet(req, res) {
     health,
     description,
     imageUrl,
+    location,
   } = req.body;
 
   return petModel
@@ -28,6 +29,7 @@ function createPet(req, res) {
       health,
       description,
       imageUrl,
+      location,
     })
     .then((pet) => {
       return res.status(201).json(pet);
