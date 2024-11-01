@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const petModel = require("./models/petModel");
 const petRouter = require("./routes/petRoutes");
+const cors = require("cors");
 
 const { PORT = 3001 } = process.env;
 
@@ -16,9 +17,10 @@ mongoose
     console.error("MongoDB connection error:", err);
   });
 
+app.use(cors());
 app.use("/images", express.static("images"));
 app.use(express.json());
-app.use("/pet", petRouter);
+app.use("/pets", petRouter);
 
 app.listen(PORT, () => {
   console.log(`Petfinder server is running on PORT ${PORT}`);

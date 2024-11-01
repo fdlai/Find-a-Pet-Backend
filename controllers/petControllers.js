@@ -55,4 +55,26 @@ function editPetInfo(req, res) {
     .catch((err) => res.status(500).json(`${err} Could not edit pet info.`));
 }
 
-module.exports = { createPet, editPetInfo };
+function findPets(req, res) {
+  const { lng, lat } = req.query;
+
+  petModel
+    .find({
+      location: {
+        $near: {
+          $geometry: { type: "Point", coordinates: [lng, lat] },
+          $maxDistance: 5000000,
+        },
+      },
+    })
+    .then((pets) => {
+      console.log(pets);
+      return res.status(200).json(pets);
+    })
+    .catch((err) => {
+      console.error(`${err} Could not get pets.`);
+      return res.status(500).json(`${err} Could not get pets.`);
+    });
+}
+
+module.exports = { createPet, editPetInfo, findPets };
