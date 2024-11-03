@@ -33,7 +33,7 @@ const petSchema = new mongoose.Schema({
     maxLength: 60,
   },
   zipCode: {
-    type: Number,
+    type: String,
     required: true,
   },
   size: {
@@ -66,22 +66,18 @@ const petSchema = new mongoose.Schema({
     validate: {
       validator: function (value) {
         // Validate only if the value is provided
-        if (value === "http://localhost:3000/images/defaultImage.jpg") {
+        if (value === "http://localhost:3001/images/defaultImage.jpg") {
           return true;
         }
         return validator.isURL(value);
       },
       message: "You must enter a valid URL.",
     },
-    default: "http://localhost:3000/images/defaultImage.jpg",
+    default: "http://localhost:3001/images/defaultImage.jpg",
   },
   location: {
-    type: {
-      type: String,
-      enum: ["Point"],
-      required: true,
-      default: "Point",
-    },
+    type: { type: String, enum: ["Point"], required: true },
+    coordinates: { type: [Number], required: true },
   },
   createdAt: {
     type: Date,
