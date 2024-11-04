@@ -2,7 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const petModel = require("./models/petModel");
 const petRouter = require("./routes/petRoutes");
+const locationRouter = require("./routes/locationRoutes");
 const cors = require("cors");
+require("dotenv").config();
 
 const { PORT = 3001 } = process.env;
 
@@ -20,6 +22,7 @@ mongoose
 app.use(cors());
 app.use("/images", express.static("images"));
 app.use(express.json());
+app.use("/locations", locationRouter);
 app.use("/pets", petRouter);
 
 app.listen(PORT, () => {
