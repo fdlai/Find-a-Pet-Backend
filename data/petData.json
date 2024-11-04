@@ -1,6 +1,7 @@
 [
   {
     "name": "Mr Meow",
+    "species": "cat",
     "breed": "Tabby",
     "sex": "male",
     "city": "Spring Hill",
@@ -19,6 +20,7 @@
   },
   {
     "name": "Fluffy",
+    "species": "dog",
     "breed": "Poodle",
     "sex": "female",
     "city": "Orlando",
@@ -37,6 +39,7 @@
   },
   {
     "name": "Buddy",
+    "species": "dog",
     "breed": "Golden Retriever",
     "sex": "male",
     "city": "Tampa",
@@ -55,6 +58,7 @@
   },
   {
     "name": "Whiskers",
+    "species": "cat",
     "breed": "Siamese",
     "sex": "female",
     "city": "Miami",
@@ -73,6 +77,7 @@
   },
   {
     "name": "Shadow",
+    "species": "dog",
     "breed": "Black Lab",
     "sex": "male",
     "city": "Jacksonville",
@@ -91,6 +96,7 @@
   },
   {
     "name": "Luna",
+    "species": "dog",
     "breed": "Husky",
     "sex": "female",
     "city": "Gainesville",
@@ -109,6 +115,7 @@
   },
   {
     "name": "Charlie",
+    "species": "dog",
     "breed": "Beagle",
     "sex": "male",
     "city": "Tallahassee",
@@ -127,6 +134,7 @@
   },
   {
     "name": "Bella",
+    "species": "dog",
     "breed": "Bulldog",
     "sex": "female",
     "city": "Pensacola",
@@ -145,6 +153,7 @@
   },
   {
     "name": "Max",
+    "species": "dog",
     "breed": "White German Shepherd",
     "sex": "male",
     "city": "Ocala",
@@ -163,6 +172,7 @@
   },
   {
     "name": "Coco",
+    "species": "dog",
     "breed": "Shih Tzu",
     "sex": "female",
     "city": "St. Petersburg",
@@ -181,6 +191,7 @@
   },
   {
     "name": "Daisy",
+    "species": "dog",
     "breed": "Chihuahua",
     "sex": "female",
     "city": "Fort Lauderdale",
@@ -199,6 +210,7 @@
   },
   {
     "name": "Rocky",
+    "species": "dog",
     "breed": "Boxer",
     "sex": "male",
     "city": "Boca Raton",
@@ -217,6 +229,7 @@
   },
   {
     "name": "Nina",
+    "species": "cat",
     "breed": "Sphynx",
     "sex": "female",
     "city": "Naples",
@@ -235,6 +248,7 @@
   },
   {
     "name": "Sirius Black",
+    "species": "cat",
     "breed": "Bombay",
     "sex": "male",
     "city": "Atlanta",
@@ -253,6 +267,7 @@
   },
   {
     "name": "Luna Lovegood",
+    "species": "cat",
     "breed": "Maine Coon",
     "sex": "female",
     "city": "Austin",
@@ -271,6 +286,7 @@
   },
   {
     "name": "Oliver Twist",
+    "species": "cat",
     "breed": "Tabby",
     "sex": "male",
     "city": "San Francisco",
@@ -289,6 +305,7 @@
   },
   {
     "name": "Bella Swan",
+    "species": "cat",
     "breed": "Siamese",
     "sex": "female",
     "city": "Miami",
@@ -307,6 +324,7 @@
   },
   {
     "name": "Maximus Decimus",
+    "species": "dog",
     "breed": "German Shepherd",
     "sex": "male",
     "city": "Denver",
@@ -325,6 +343,7 @@
   },
   {
     "name": "Hazel Grace",
+    "species": "dog",
     "breed": "Labrador",
     "sex": "female",
     "city": "Seattle",
@@ -343,6 +362,7 @@
   },
   {
     "name": "Charlie Brown",
+    "species": "dog",
     "breed": "Golden Retriever",
     "sex": "male",
     "city": "Boston",
@@ -361,6 +381,7 @@
   },
   {
     "name": "Milo Thatch",
+    "species": "dog",
     "breed": "Beagle",
     "sex": "male",
     "city": "Nashville",
@@ -379,6 +400,7 @@
   },
   {
     "name": "Willow Tree",
+    "species": "dog",
     "breed": "Husky",
     "sex": "female",
     "city": "Chicago",
@@ -397,6 +419,7 @@
   },
   {
     "name": "Bella Notte",
+    "species": "cat",
     "breed": "Ragdoll",
     "sex": "female",
     "city": "Los Angeles",
@@ -415,6 +438,7 @@
   },
   {
     "name": "Apollo Creed",
+    "species": "dog",
     "breed": "Pit Bull",
     "sex": "male",
     "city": "Philadelphia",
