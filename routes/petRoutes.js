@@ -2,7 +2,8 @@ const { Router } = require("express");
 const {
   createPet,
   editPetInfo,
-  findPets,
+  findNearestPets,
+  findRecentPets,
 } = require("../controllers/petControllers");
 
 const petRouter = Router();
@@ -11,6 +12,8 @@ petRouter.post("/", createPet);
 
 petRouter.patch("/:id", editPetInfo);
 
-petRouter.get("/near", findPets);
+petRouter.get("/near", findNearestPets);
+
+petRouter.get("/recent", findRecentPets);
 
 module.exports = petRouter;

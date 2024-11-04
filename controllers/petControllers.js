@@ -3,6 +3,7 @@ const petModel = require("../models/petModel");
 function createPet(req, res) {
   const {
     name,
+    species,
     breed,
     sex,
     city,
@@ -19,6 +20,7 @@ function createPet(req, res) {
   return petModel
     .create({
       name,
+      species,
       breed,
       sex,
       city,
@@ -55,7 +57,7 @@ function editPetInfo(req, res) {
     .catch((err) => res.status(500).json(`${err} Could not edit pet info.`));
 }
 
-function findPets(req, res) {
+function findNearestPets(req, res) {
   const { lng, lat } = req.query;
 
   petModel
@@ -77,4 +79,20 @@ function findPets(req, res) {
     });
 }
 
-module.exports = { createPet, editPetInfo, findPets };
+const findRecentPets = async (req, res) => {
+  const number = parseInt(req.query.number) || 10;
+  petModel
+    .find({})
+    .sort({ createdAt: -1 }) // Sort by most recent
+    .limit(number)
+    .then((pets) => {
+      console.log(pets);
+      return res.status(200).json(pets);
+    })
+    .catch((err) => {
+      console.error(`${err} Could not get recent pets.`);
+      return res.status(500).json(`${err} Could not get recent pets.`);
+    });
+};
+
+module.exports = { createPet, editPetInfo, findNearestPets, findRecentPets };

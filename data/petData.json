@@ -361,13 +361,13 @@
     }
   },
   {
-    "name": "Charlie Brown",
+    "name": "Rigby",
     "species": "dog",
     "breed": "Golden Retriever",
     "sex": "male",
-    "city": "Boston",
-    "state": "Massachusetts",
-    "zipCode": "02108",
+    "city": "Carson City",
+    "state": "Nevada",
+    "zipCode": "89701",
     "size": "large",
     "characteristics": "Friendly",
     "health": "Vaccinated",
@@ -376,7 +376,7 @@
     "imageUrl": "https://www.publicdomainpictures.net/pictures/40000/velka/golden-retriever-dog-1362597631o6g.jpg",
     "location": {
       "type": "Point",
-      "coordinates": [-71.058884, 42.360081]
+      "coordinates": [-119.7674, 39.1638]
     }
   },
   {
@@ -453,6 +453,234 @@
     "location": {
       "type": "Point",
       "coordinates": [-75.165222, 39.952583]
+    }
+  },
+  {
+    "name": "Mr. Freeze",
+    "species": "bear",
+    "breed": "Polar",
+    "sex": "male",
+    "city": "Bear Creek",
+    "state": "Alaska",
+    "zipCode": "99664",
+    "size": "large",
+    "characteristics": "Menacing",
+    "health": "Strong",
+    "description": "Likes to eat",
+    "createdAt": "2024-10-13T09:10:00.000+00:00",
+    "imageUrl": "https://images.ctfassets.net/i04syw39vv9p/2JuvIQ1Ynj7TdsOi05qoNL/543778f193f0acd8d8182fdd042a53bc/Daniel-J-Cox-D188571.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-149.35, 60.21]
+    }
+  },
+  {
+    "name": "Beef Wellington",
+    "species": "dog",
+    "breed": "Golden Labrador",
+    "sex": "male",
+    "city": "Wellington",
+    "state": "Utah",
+    "zipCode": "84542",
+    "size": "large",
+    "characteristics": "Pudgy",
+    "health": "Strong",
+    "description": "Favorite food is beef",
+    "createdAt": "2024-10-13T09:10:00.000+00:00",
+    "imageUrl": "https://time.com/wp-content/uploads/2014/06/golden-lab.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-110.73543, 39.54247]
+    }
+  },
+  {
+    "name": "Bella Stripes",
+    "species": "cat",
+    "breed": "Maine Coon",
+    "sex": "female",
+    "city": "Austin",
+    "state": "Texas",
+    "zipCode": "73301",
+    "size": "medium",
+    "characteristics": "Fluffy",
+    "health": "Healthy",
+    "description": "Loves sunbathing",
+    "createdAt": "2024-10-13T11:20:00.000+00:00",
+    "imageUrl": "https://a.storyblok.com/f/146819/1087x721/5fd793e802/facts-about-maine-coon-cats.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-97.7431, 30.2672]
+    }
+  },
+  {
+    "name": "Rocky Road",
+    "species": "dog",
+    "breed": "German Shepherd",
+    "sex": "male",
+    "city": "Denver",
+    "state": "Colorado",
+    "zipCode": "80201",
+    "size": "small",
+    "characteristics": "Energetic",
+    "health": "Strong",
+    "description": "Enjoys hiking",
+    "createdAt": "2024-10-13T13:30:00.000+00:00",
+    "imageUrl": "https://doginfo411.com/wp-content/uploads/2016/08/German-Shepherds3.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-104.9903, 39.7392]
+    }
+  },
+  {
+    "name": "Cleo",
+    "species": "cat",
+    "breed": "Russian Blue",
+    "sex": "female",
+    "city": "Los Angeles",
+    "state": "California",
+    "zipCode": "90001",
+    "size": "small",
+    "characteristics": "Playful",
+    "health": "Delicate",
+    "description": "Needs frequent grooming",
+    "createdAt": "2024-10-13T15:40:00.000+00:00",
+    "imageUrl": "https://i.pinimg.com/originals/bd/a6/89/bda689959570bde68f54719ca2825339.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-118.2437, 34.0522]
+    }
+  },
+  {
+    "name": "Clyde",
+    "species": "dog",
+    "breed": "Bulldog",
+    "sex": "male",
+    "city": "Miami",
+    "state": "Florida",
+    "zipCode": "33101",
+    "size": "medium",
+    "characteristics": "Laid-back",
+    "health": "Healthy",
+    "description": "Loves naps",
+    "createdAt": "2024-10-13T17:50:00.000+00:00",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Clyde_The_Bulldog.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-80.1918, 25.7617]
+    }
+  },
+  {
+    "name": "Lucy",
+    "species": "rabbit",
+    "breed": "Holland Lop",
+    "sex": "female",
+    "city": "Salem",
+    "state": "Oregon",
+    "zipCode": "97301",
+    "size": "small",
+    "characteristics": "Gentle",
+    "health": "Healthy",
+    "description": "Loves carrots",
+    "createdAt": "2024-10-13T19:00:00.000+00:00",
+    "imageUrl": "https://animalcorner.org/wp-content/uploads/2020/09/Holland-Lop-1.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-123.0351, 44.9429]
+    }
+  },
+  {
+    "name": "Charlie Babbitt",
+    "species": "rabbit",
+    "breed": "Dutch",
+    "sex": "male",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "zipCode": "02101",
+    "size": "small",
+    "characteristics": "Friendly",
+    "health": "Strong",
+    "description": "Enjoys running",
+    "createdAt": "2024-10-13T21:10:00.000+00:00",
+    "imageUrl": "https://animalcorner.org/wp-content/uploads/2020/10/Dutch-Rabbit-1.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-71.0589, 42.3601]
+    }
+  },
+  {
+    "name": "Milo",
+    "species": "cat",
+    "breed": "British Shorthair",
+    "sex": "male",
+    "city": "New York",
+    "state": "New York",
+    "zipCode": "10001",
+    "size": "medium",
+    "characteristics": "Calm",
+    "health": "Healthy",
+    "description": "Adores fish treats",
+    "createdAt": "2024-10-13T23:20:00.000+00:00",
+    "imageUrl": "https://www.thesprucepets.com/thmb/9lzAXQ0hk0fjV4V9IXkbmKJXzUQ=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/OrangeBicolorBritishShorthair-cdc536c53dc74afe8291f064173490ee.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-74.006, 40.7128]
+    }
+  },
+  {
+    "name": "Stretch",
+    "species": "dog",
+    "breed": "Dachshund",
+    "sex": "female",
+    "city": "Chicago",
+    "state": "Illinois",
+    "zipCode": "60601",
+    "size": "small",
+    "characteristics": "Curious",
+    "health": "Healthy",
+    "description": "Enjoys digging",
+    "createdAt": "2024-10-14T01:30:00.000+00:00",
+    "imageUrl": "https://img.dog-learn.com/dog-breeds/dachshund/images/dachshund-u3-sz3.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-87.6298, 41.8781]
+    }
+  },
+  {
+    "name": "Muffins",
+    "species": "dog",
+    "breed": "Shih Tzu",
+    "sex": "male",
+    "city": "San Francisco",
+    "state": "California",
+    "zipCode": "94101",
+    "size": "small",
+    "characteristics": "Affectionate",
+    "health": "Strong",
+    "description": "Enjoys belly rubs",
+    "createdAt": "2024-10-14T03:40:00.000+00:00",
+    "imageUrl": "https://fishsubsidy.org/wp-content/uploads/2020/01/shih-tzu-dog-breed.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [-122.4194, 37.7749]
+    }
+  },
+  {
+    "name": "Jynx",
+    "species": "cat",
+    "breed": "Norwegian Forest",
+    "sex": "female",
+    "city": "Chesterfield",
+    "state": "Missouri",
+    "zipCode": "63005",
+    "size": "small",
+    "characteristics": "Adventurous",
+    "health": "Spayed and vaccinated",
+    "description": "Loves exploring and climbing high",
+    "createdAt": "2024-10-14T03:40:00.000+00:00",
+    "imageUrl": "https://www.litter-robot.com/media/blog/Norwegian_Forest_Cat_Breed_Profile_2.png",
+    "location": {
+      "type": "Point",
+      "coordinates": [-90.576857, 38.663384]
     }
   }
 ]
