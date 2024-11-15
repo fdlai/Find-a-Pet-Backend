@@ -95,4 +95,24 @@ const findRecentPets = async (req, res) => {
     });
 };
 
-module.exports = { createPet, editPetInfo, findNearestPets, findRecentPets };
+function findPetInfo(req, res) {
+  const { id } = req.params;
+  petModel
+    .findById(id)
+    .orFail()
+    .then((pet) => {
+      return res.status(200).json(pet);
+    })
+    .catch((err) => {
+      console.error(`${err} Could not find pet.`);
+      return res.status(500).json(`${err} Could not find pet.`);
+    });
+}
+
+module.exports = {
+  createPet,
+  editPetInfo,
+  findNearestPets,
+  findRecentPets,
+  findPetInfo,
+};

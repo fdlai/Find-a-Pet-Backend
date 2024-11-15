@@ -4,6 +4,7 @@ const {
   editPetInfo,
   findNearestPets,
   findRecentPets,
+  findPetInfo,
 } = require("../controllers/petControllers");
 
 const petRouter = Router();
@@ -17,5 +18,7 @@ petRouter.patch("/:id", editPetInfo);
 petRouter.get("/near", findNearestPets);
 
 petRouter.get("/recent", findRecentPets);
+
+petRouter.get("/info/:id", findPetInfo);
 
 module.exports = petRouter;
