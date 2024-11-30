@@ -6,6 +6,7 @@ function createPet(req, res) {
     species,
     breed,
     sex,
+    age,
     city,
     state,
     zipCode,
@@ -23,6 +24,7 @@ function createPet(req, res) {
       species,
       breed,
       sex,
+      age,
       city,
       state,
       zipCode,
@@ -109,10 +111,68 @@ function findPetInfo(req, res) {
     });
 }
 
+function findFilteredPets(req, res) {
+  const allowedFields = new Set([
+    "name",
+    "species",
+    "breed",
+    "sex",
+    "age",
+    "city",
+    "state",
+    "zipCode",
+    "size",
+    "characteristics",
+    "health",
+    "description",
+    "imageUrl",
+    "location",
+  ]);
+
+  const filteredQuery = Object.keys(req.query)
+    .filter((key) => allowedFields.has(key))
+    .reduce((obj, key) => {
+      obj[key] = req.query[key];
+      return obj;
+    }, {});
+
+  const { lng, lat } = req.query;
+
+  // Add geospatial sorting if lng and lat are provided
+  const queryOptions =
+    lng && lat
+      ? {
+          location: {
+            $near: {
+              $geometry: {
+                type: "Point",
+                coordinates: [lng, lat],
+              },
+              $maxDistance: 5000000,
+            },
+          },
+        }
+      : {};
+
+  const finalQuery = { ...filteredQuery, ...queryOptions };
+
+  petModel
+    .find(finalQuery)
+    .orFail()
+    .then((pets) => {
+      return res.status(200).json(pets);
+    })
+    .catch((err) => {
+      console.error(`${err} Could not find pets.`);
+      return res.status(500).json(`${err} Could not find pets.`);
+    });
+}
+
 module.exports = {
   createPet,
   editPetInfo,
   findNearestPets,
   findRecentPets,
   findPetInfo,
+  findFilteredPets,
 };

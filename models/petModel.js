@@ -27,6 +27,11 @@ const petSchema = new mongoose.Schema({
     required: true,
     enum: ["male", "female"],
   },
+  age: {
+    type: String,
+    required: true,
+    enum: ["young", "adolescent", "adult", "senior"],
+  },
   city: {
     type: String,
     required: true,
