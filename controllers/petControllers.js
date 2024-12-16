@@ -136,7 +136,7 @@ function findFilteredPets(req, res) {
       return obj;
     }, {});
 
-  const { lng, lat } = req.query;
+  const { lng, lat, page, pageSize = 20 } = req.query;
 
   // Add geospatial sorting if lng and lat are provided
   const queryOptions =
@@ -158,6 +158,8 @@ function findFilteredPets(req, res) {
 
   petModel
     .find(finalQuery)
+    .skip((page - 1) * pageSize)
+    .limit(pageSize)
     .orFail()
     .then((pets) => {
       return res.status(200).json(pets);

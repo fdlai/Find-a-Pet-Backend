@@ -2,7 +2,7 @@
   {
     "name": "Mr Meow",
     "species": "cat",
-    "breed": "Tabby",
+    "breed": "tabby",
     "sex": "male",
     "age": "adult",
     "city": "Spring Hill",
@@ -22,7 +22,7 @@
   {
     "name": "Fluffy",
     "species": "dog",
-    "breed": "Poodle",
+    "breed": "poodle",
     "sex": "female",
     "age": "adult",
     "city": "Orlando",
@@ -42,7 +42,7 @@
   {
     "name": "Buddy",
     "species": "dog",
-    "breed": "Golden Retriever",
+    "breed": "golden retriever",
     "sex": "male",
     "age": "adult",
     "city": "Tampa",
@@ -62,7 +62,7 @@
   {
     "name": "Whiskers",
     "species": "cat",
-    "breed": "Siamese",
+    "breed": "siamese",
     "sex": "female",
     "age": "adult",
     "city": "Miami",
@@ -82,7 +82,7 @@
   {
     "name": "Shadow",
     "species": "dog",
-    "breed": "Black Lab",
+    "breed": "black lab",
     "sex": "male",
     "age": "adolescent",
     "city": "Jacksonville",
@@ -102,7 +102,7 @@
   {
     "name": "Luna",
     "species": "dog",
-    "breed": "Husky",
+    "breed": "husky",
     "sex": "female",
     "age": "adult",
     "city": "Gainesville",
@@ -122,7 +122,7 @@
   {
     "name": "Charlie",
     "species": "dog",
-    "breed": "Beagle",
+    "breed": "beagle",
     "sex": "male",
     "age": "adult",
     "city": "Tallahassee",
@@ -142,7 +142,7 @@
   {
     "name": "Bella",
     "species": "dog",
-    "breed": "Bulldog",
+    "breed": "bulldog",
     "sex": "female",
     "age": "adult",
     "city": "Pensacola",
@@ -162,7 +162,7 @@
   {
     "name": "Max",
     "species": "dog",
-    "breed": "White German Shepherd",
+    "breed": "white german shepherd",
     "sex": "male",
     "age": "adult",
     "city": "Ocala",
@@ -182,7 +182,7 @@
   {
     "name": "Coco",
     "species": "dog",
-    "breed": "Shih Tzu",
+    "breed": "shih tzu",
     "sex": "female",
     "age": "adult",
     "city": "St. Petersburg",
@@ -202,7 +202,7 @@
   {
     "name": "Daisy",
     "species": "dog",
-    "breed": "Chihuahua",
+    "breed": "chihuahua",
     "sex": "female",
     "age": "adult",
     "city": "Fort Lauderdale",
@@ -222,7 +222,7 @@
   {
     "name": "Rocky",
     "species": "dog",
-    "breed": "Boxer",
+    "breed": "boxer",
     "sex": "male",
     "age": "adult",
     "city": "Boca Raton",
@@ -242,7 +242,7 @@
   {
     "name": "Nina",
     "species": "cat",
-    "breed": "Sphynx",
+    "breed": "sphynx",
     "sex": "female",
     "age": "senior",
     "city": "Naples",
@@ -262,7 +262,7 @@
   {
     "name": "Sirius Black",
     "species": "cat",
-    "breed": "Bombay",
+    "breed": "bombay",
     "sex": "male",
     "age": "adult",
     "city": "Atlanta",
@@ -282,7 +282,7 @@
   {
     "name": "Luna Lovegood",
     "species": "cat",
-    "breed": "Maine Coon",
+    "breed": "maine coon",
     "sex": "female",
     "age": "adult",
     "city": "Austin",
@@ -302,7 +302,7 @@
   {
     "name": "Oliver Twist",
     "species": "cat",
-    "breed": "Tabby",
+    "breed": "tabby",
     "sex": "male",
     "age": "adult",
     "city": "San Francisco",
@@ -322,7 +322,7 @@
   {
     "name": "Bella Swan",
     "species": "cat",
-    "breed": "Siamese",
+    "breed": "siamese",
     "sex": "female",
     "age": "adult",
     "city": "Miami",
@@ -342,7 +342,7 @@
   {
     "name": "Maximus Decimus",
     "species": "dog",
-    "breed": "German Shepherd",
+    "breed": "german shepherd",
     "sex": "male",
     "age": "adult",
     "city": "Denver",
@@ -362,7 +362,7 @@
   {
     "name": "Hazel Grace",
     "species": "dog",
-    "breed": "Labrador",
+    "breed": "labrador",
     "sex": "female",
     "age": "adult",
     "city": "Seattle",
@@ -382,7 +382,7 @@
   {
     "name": "Rigby",
     "species": "dog",
-    "breed": "Golden Retriever",
+    "breed": "golden retriever",
     "sex": "male",
     "age": "adult",
     "city": "Carson City",
@@ -402,7 +402,7 @@
   {
     "name": "Milo Thatch",
     "species": "dog",
-    "breed": "Beagle",
+    "breed": "beagle",
     "sex": "male",
     "age": "adult",
     "city": "Nashville",
@@ -422,7 +422,7 @@
   {
     "name": "Willow Tree",
     "species": "dog",
-    "breed": "Husky",
+    "breed": "husky",
     "sex": "female",
     "age": "adult",
     "city": "Chicago",
@@ -442,7 +442,7 @@
   {
     "name": "Bella Notte",
     "species": "cat",
-    "breed": "Ragdoll",
+    "breed": "ragdoll",
     "sex": "female",
     "age": "adult",
     "city": "Los Angeles",
@@ -462,7 +462,7 @@
   {
     "name": "Apollo Creed",
     "species": "dog",
-    "breed": "Pit Bull",
+    "breed": "pit bull",
     "sex": "male",
     "age": "adult",
     "city": "Philadelphia",
@@ -482,7 +482,7 @@
   {
     "name": "Mr. Freeze",
     "species": "bear",
-    "breed": "Polar",
+    "breed": "polar",
     "sex": "male",
     "age": "adult",
     "city": "Bear Creek",
@@ -502,7 +502,7 @@
   {
     "name": "Beef Wellington",
     "species": "dog",
-    "breed": "Golden Labrador",
+    "breed": "golden labrador",
     "sex": "male",
     "age": "adult",
     "city": "Wellington",
@@ -522,7 +522,7 @@
   {
     "name": "Bella Stripes",
     "species": "cat",
-    "breed": "Maine Coon",
+    "breed": "maine coon",
     "sex": "female",
     "age": "adult",
     "city": "Austin",
@@ -542,7 +542,7 @@
   {
     "name": "Rocky Road",
     "species": "dog",
-    "breed": "German Shepherd",
+    "breed": "german shepherd",
     "sex": "male",
     "age": "adult",
     "city": "Denver",
@@ -562,7 +562,7 @@
   {
     "name": "Cleo",
     "species": "cat",
-    "breed": "Russian Blue",
+    "breed": "russian blue",
     "sex": "female",
     "age": "adult",
     "city": "Los Angeles",
@@ -582,7 +582,7 @@
   {
     "name": "Clyde",
     "species": "dog",
-    "breed": "Bulldog",
+    "breed": "bulldog",
     "sex": "male",
     "age": "adult",
     "city": "Miami",
@@ -602,7 +602,7 @@
   {
     "name": "Lucy",
     "species": "rabbit",
-    "breed": "Holland Lop",
+    "breed": "holland lop",
     "sex": "female",
     "age": "adult",
     "city": "Salem",
@@ -622,7 +622,7 @@
   {
     "name": "Charlie Babbitt",
     "species": "rabbit",
-    "breed": "Dutch",
+    "breed": "dutch",
     "sex": "male",
     "age": "adult",
     "city": "Boston",
@@ -642,7 +642,7 @@
   {
     "name": "Milo",
     "species": "cat",
-    "breed": "British Shorthair",
+    "breed": "british shorthair",
     "sex": "male",
     "age": "adult",
     "city": "New York",
@@ -662,7 +662,7 @@
   {
     "name": "Stretch",
     "species": "dog",
-    "breed": "Dachshund",
+    "breed": "dachshund",
     "sex": "female",
     "age": "adult",
     "city": "Chicago",
@@ -682,7 +682,7 @@
   {
     "name": "Muffins",
     "species": "dog",
-    "breed": "Shih Tzu",
+    "breed": "shih tzu",
     "sex": "male",
     "age": "adult",
     "city": "San Francisco",
@@ -702,7 +702,7 @@
   {
     "name": "Jynx",
     "species": "cat",
-    "breed": "Norwegian Forest",
+    "breed": "norwegian forest",
     "sex": "female",
     "age": "adult",
     "city": "Chesterfield",
@@ -722,7 +722,7 @@
   {
     "name": "Buddha",
     "species": "dog",
-    "breed": "Golden Retriever",
+    "breed": "golden retriever",
     "sex": "male",
     "age": "adult",
     "city": "Boston",
@@ -741,7 +741,7 @@
   {
     "name": "Mittens",
     "species": "cat",
-    "breed": "Siamese",
+    "breed": "siamese",
     "sex": "female",
     "age": "young",
     "city": "New Haven",
@@ -760,7 +760,7 @@
   {
     "name": "Darkness",
     "species": "dog",
-    "breed": "German Shepherd",
+    "breed": "german shepherd",
     "sex": "male",
     "age": "senior",
     "city": "Albany",
@@ -779,7 +779,7 @@
   {
     "name": "Hairball",
     "species": "cat",
-    "breed": "Persian",
+    "breed": "persian",
     "sex": "female",
     "age": "adolescent",
     "city": "Providence",
@@ -798,7 +798,7 @@
   {
     "name": "Marlo",
     "species": "dog",
-    "breed": "Beagle",
+    "breed": "beagle",
     "sex": "male",
     "age": "young",
     "city": "Trenton",
@@ -817,7 +817,7 @@
   {
     "name": "Silver",
     "species": "dog",
-    "breed": "Husky",
+    "breed": "husky",
     "sex": "female",
     "age": "young",
     "city": "Portland",
@@ -836,7 +836,7 @@
   {
     "name": "Smokey",
     "species": "cat",
-    "breed": "Russian Blue",
+    "breed": "russian blue",
     "sex": "female",
     "age": "adolescent",
     "city": "Burlington",
@@ -855,7 +855,7 @@
   {
     "name": "Bailey",
     "species": "dog",
-    "breed": "Labrador Retriever",
+    "breed": "labrador retriever",
     "sex": "female",
     "age": "young",
     "city": "New York",
@@ -874,7 +874,7 @@
   {
     "name": "Lionel",
     "species": "cat",
-    "breed": "Maine Coon",
+    "breed": "maine coon",
     "sex": "male",
     "age": "senior",
     "city": "Harrisburg",
@@ -893,7 +893,7 @@
   {
     "name": "Jimbo",
     "species": "dog",
-    "breed": "Corgi",
+    "breed": "corgi",
     "sex": "male",
     "age": "adult",
     "city": "Montpelier",
@@ -912,7 +912,7 @@
   {
     "name": "Sly",
     "species": "dog",
-    "breed": "Boston Terrier",
+    "breed": "boston terrier",
     "sex": "male",
     "age": "adult",
     "city": "Hartford",
@@ -931,7 +931,7 @@
   {
     "name": "Aqua",
     "species": "cat",
-    "breed": "Bengal",
+    "breed": "bengal",
     "sex": "female",
     "age": "adolescent",
     "city": "Scranton",
@@ -950,7 +950,7 @@
   {
     "name": "Daisy",
     "species": "dog",
-    "breed": "Border Collie",
+    "breed": "border collie",
     "sex": "female",
     "age": "adult",
     "city": "Kansas City",
@@ -969,7 +969,7 @@
   {
     "name": "Hubert",
     "species": "dog",
-    "breed": "Boxer",
+    "breed": "boxer",
     "sex": "male",
     "age": "adolescent",
     "city": "Tulsa",
@@ -988,7 +988,7 @@
   {
     "name": "Esmerelda",
     "species": "cat",
-    "breed": "Calico",
+    "breed": "calico",
     "sex": "female",
     "age": "young",
     "city": "St. Louis",
@@ -1007,7 +1007,7 @@
   {
     "name": "Bolt",
     "species": "dog",
-    "breed": "Greyhound",
+    "breed": "greyhound",
     "sex": "male",
     "age": "adult",
     "city": "Wichita",
@@ -1026,7 +1026,7 @@
   {
     "name": "Sylvia",
     "species": "dog",
-    "breed": "Poodle",
+    "breed": "poodle",
     "sex": "female",
     "age": "adult",
     "city": "Omaha",
@@ -1045,7 +1045,7 @@
   {
     "name": "Beans",
     "species": "cat",
-    "breed": "Tabby",
+    "breed": "tabby",
     "sex": "male",
     "age": "adult",
     "city": "Des Moines",
@@ -1064,7 +1064,7 @@
   {
     "name": "Sadie",
     "species": "dog",
-    "breed": "Labradoodle",
+    "breed": "labradoodle",
     "sex": "female",
     "age": "adolescent",
     "city": "Minneapolis",
@@ -1083,7 +1083,7 @@
   {
     "name": "Oscar",
     "species": "cat",
-    "breed": "Bengal",
+    "breed": "bengal",
     "sex": "male",
     "age": "adult",
     "city": "Milwaukee",
@@ -1102,7 +1102,7 @@
   {
     "name": "Maggie",
     "species": "dog",
-    "breed": "Cocker Spaniel",
+    "breed": "cocker spaniel",
     "sex": "female",
     "age": "adult",
     "city": "Chicago",
@@ -1121,7 +1121,7 @@
   {
     "name": "Zeus",
     "species": "dog",
-    "breed": "Great Dane",
+    "breed": "great dane",
     "sex": "male",
     "age": "adult",
     "city": "Little Rock",
@@ -1140,7 +1140,7 @@
   {
     "name": "Scruffy",
     "species": "cat",
-    "breed": "Ragdoll",
+    "breed": "ragdoll",
     "sex": "male",
     "age": "adult",
     "city": "Memphis",
@@ -1159,7 +1159,7 @@
   {
     "name": "Sparky",
     "species": "dog",
-    "breed": "Australian Shepherd",
+    "breed": "australian shepherd",
     "sex": "male",
     "age": "adolescent",
     "city": "Dallas",
