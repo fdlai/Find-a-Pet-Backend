@@ -13,7 +13,8 @@ function findLocationByName(req, res) {
       return res.status(200).json(data);
     })
     .catch((err) => {
-      return res.status(500).json(`${err} could not find location(s).`);
+      console.error(err);
+      return res.status(500).json(`Could not find location(s).`);
     });
 }
 

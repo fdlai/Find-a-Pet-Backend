@@ -39,7 +39,8 @@ function createPet(req, res) {
       return res.status(201).json(pet);
     })
     .catch((err) => {
-      return res.status(500).json(`${err} Could not create pet.`);
+      console.error(err);
+      return res.status(500).json(`Could not create pet.`);
     });
 }
 
@@ -56,7 +57,10 @@ function editPetInfo(req, res) {
   return petModel
     .findByIdAndUpdate(id, { $set: updatedPetInfo }, { new: true })
     .then((updatedPet) => res.status(200).json(updatedPet))
-    .catch((err) => res.status(500).json(`${err} Could not edit pet info.`));
+    .catch((err) => {
+      console.error(err);
+      return res.status(500).json(`Could not edit pet info.`);
+    });
 }
 
 function findNearestPets(req, res) {
@@ -76,8 +80,8 @@ function findNearestPets(req, res) {
       return res.status(200).json(pets);
     })
     .catch((err) => {
-      console.error(`${err} Could not get pets.`);
-      return res.status(500).json(`${err} Could not get pets.`);
+      console.error(err);
+      return res.status(500).json(`Could not get pets.`);
     });
 }
 
@@ -92,8 +96,8 @@ const findRecentPets = async (req, res) => {
       return res.status(200).json(pets);
     })
     .catch((err) => {
-      console.error(`${err} Could not get recent pets.`);
-      return res.status(500).json(`${err} Could not get recent pets.`);
+      console.error(err);
+      return res.status(500).json(`Could not get recent pets.`);
     });
 };
 
@@ -106,8 +110,8 @@ function findPetInfo(req, res) {
       return res.status(200).json(pet);
     })
     .catch((err) => {
-      console.error(`${err} Could not find pet.`);
-      return res.status(500).json(`${err} Could not find pet.`);
+      console.error(err);
+      return res.status(500).json(`Could not find pet.`);
     });
 }
 
@@ -165,8 +169,8 @@ function findFilteredPets(req, res) {
       return res.status(200).json(pets);
     })
     .catch((err) => {
-      console.error(`${err} Could not find pets.`);
-      return res.status(500).json(`${err} Could not find pets.`);
+      console.error(err);
+      return res.status(500).json(`Could not find pets.`);
     });
 }
 
