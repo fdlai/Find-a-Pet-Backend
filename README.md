@@ -8,6 +8,7 @@ This is the backend service for the **Find a Pet** application, responsible for 
 - Search functionality for pets by city name or ZIP code
 - Data storage using MongoDB
 - Integration with the [Find a Pet Frontend](https://github.com/fdlai/Find-a-Pet-Frontend)
+- Uses **GeoNames API** for location-based pet searches
 
 ## Tech Stack
 
@@ -33,9 +34,11 @@ This is the backend service for the **Find a Pet** application, responsible for 
    Create a `.env` file in the root directory and add the following variables:
 
    ```env
-   MONGO_URI=your_mongodb_connection_string
-   PORT=5000
+   GEONAMES_USERNAME=your_geonames_username
    ```
+
+   ⚠ **Note:** This project requires a **GeoNames username** for location-based search.  
+   You must [sign up for a free GeoNames account](http://www.geonames.org/login) and paste your username in the `.env` file.
 
 4. Start the development server:
 
@@ -44,6 +47,8 @@ This is the backend service for the **Find a Pet** application, responsible for 
    ```
 
 ## API Endpoints
+
+All routes are prefixed with `/pets`.
 
 ### Pets
 
@@ -77,4 +82,4 @@ This backend is designed to work with the [Find a Pet Frontend](https://github.c
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+Contributions are welcome! Feel free to fork the repo and
