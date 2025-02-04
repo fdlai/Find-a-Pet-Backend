@@ -2,6 +2,7 @@ const bcrypt = require("bcryptjs");
 const userModel = require("../models/userModel");
 
 // uses name, email, and password. name is not required
+// route: /signup
 function createUser(req, res) {
   const { name, email, password } = req.body;
   //if name is undefined, default "Username" will be used
