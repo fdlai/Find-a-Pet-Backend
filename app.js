@@ -27,6 +27,6 @@ app.use("/signup", createUser);
 app.use("/locations", locationRouter);
 app.use("/pets", petRouter);
 
-app.listen(PORT, () => {
-  console.log(`Petfinder server is running on PORT ${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Petfinder server is running on http://0.0.0.0:${PORT}`);
 });
