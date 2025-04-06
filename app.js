@@ -27,6 +27,10 @@ app.use("/signup", createUser);
 app.use("/locations", locationRouter);
 app.use("/pets", petRouter);
 
+app.use("/", (req, res) => {
+  res.status(404).json({ message: "No route found" });
+});
+
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Petfinder server is running on http://0.0.0.0:${PORT}`);
 });
