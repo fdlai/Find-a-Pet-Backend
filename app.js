@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const petModel = require("./models/petModel");
 const petRouter = require("./routes/petRoutes");
 const locationRouter = require("./routes/locationRoutes");
+const newsRouter = require("./routes/newsRoutes");
 const { createUser } = require("./controllers/userControllers");
 const cors = require("cors");
 require("dotenv").config();
@@ -26,6 +27,7 @@ app.use(express.json());
 app.use("/signup", createUser);
 app.use("/locations", locationRouter);
 app.use("/pets", petRouter);
+app.use("/news", newsRouter);
 
 app.use("/", (req, res) => {
   res.status(404).json({ message: "No route found" });
